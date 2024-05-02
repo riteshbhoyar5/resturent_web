@@ -1,0 +1,32 @@
+.about .row{
+    align-items: center;
+    background: #13131a;
+    flex-wrap: wrap;
+}
+
+.about h1{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+/* .about .row .content{
+    padding: 2rem;
+} */
+
+.about .row .content h4{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.about .row .content p{
+    font-size: 1.2rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.2;
+}

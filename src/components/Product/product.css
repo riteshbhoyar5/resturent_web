@@ -1,0 +1,66 @@
+.products .box-container .box .card{
+    text-align: center;
+    border: 0.1rem solid #ff0000;
+    padding: 2rem;
+    background: #13131a;
+    color: #fff;
+}
+
+.products h1{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.products .box-container .box .icons .cart,
+.products .box-container .box .icons .eye,
+.products .box-container .box .icons .heart{
+    height: 2rem;
+    width: 2rem;
+    line-height: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    border: .1rem solid #fff;
+    margin: 0.3rem;
+}
+
+.products .box-container .box .icons .cart:hover,
+.products .box-container .box .icons .heart:hover,
+.products .box-container .box .icons .eye:hover{
+    background: #ffc107;
+    color:#13131a;
+}
+
+.products .box-container .box .image{
+    padding: 0.5rem 0;
+}
+
+
+.products .box-container .box:hover img{
+    scale: 1.1;
+}
+
+.products .box-container .box .card:hover{
+    background: #b55511b7;
+}
+
+.products .box-container .box .content h4{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.products .box-container .box .content .stars{
+    padding: 1rem;
+    color: #ffc107;
+    font-size: 1.5rem;
+}
+
+.products .box-container .box .content .price{
+    color: #fff;
+    font-size: 1rem;
+}
+
+.products .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1;
+}

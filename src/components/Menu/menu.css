@@ -1,0 +1,43 @@
+.menu .box-container .box .card{
+    padding: 0.6rem;
+    text-align: center;
+    border: 0.1rem solid #ff0000;
+    background: #13131a;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.menu h1{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.menu .box-container .box .card .img{
+    border-radius: 50%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.menu .box-container .box:hover img{
+    scale: 1.2;
+}
+
+.menu .box-container .box h4{
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #fff;
+    padding: 0.5rem 0;
+}
+
+.menu .box-container .box .price span{
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.menu .box-container .box .card:hover{
+    background: #cb8e09ad;
+    transition: 0.5s;
+}

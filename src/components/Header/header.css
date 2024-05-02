@@ -1,0 +1,134 @@
+.header{
+    color: #fff;
+    background: #010103;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 8px 7%;
+    border-bottom: 0.2px solid #ff0000;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header .navbar .head{
+    color: #fff;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.header .navbar .head:hover{
+    color: #ffc102;
+    border-bottom: 0.1rem solid #cc06;
+    padding: 0.5rem;
+}
+
+.header .icons .search,
+.header .icons .cart{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.header .search-form{
+    position: absolute;
+    top: 115%;
+    right: 7%;
+    background: #fff;
+    width: 30rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    transform: scaleY(0);
+    transform-origin: top;
+    border-radius: 15px;
+}
+
+.header .search-form.active{
+    transform: scaleY(1);
+}
+
+.header .search-form input{
+    height: 100%;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #13131a;
+    padding: 1rem;
+    text-transform: none;
+}
+
+.header .search-form .search{
+    cursor: pointer;
+    font-size: 2.2rem;
+    color: #13131a;
+    margin-right: 1.5rem;
+}
+
+.header .icons .search:hover,
+.header .icons .cart:hover{
+    color: #ffc102;
+}
+
+.header .search-form .search:hover{
+    color: #ffc102;
+}
+
+.header .cart-items-container{
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    height: calc(100vh - 9.5rem);
+    width: 30rem;
+    background: #fff;
+    padding: 0 1.5rem;
+}
+
+.header .cart-items-container.active{
+    right: 0;
+}
+
+.header .cart-items-container .cart-item{
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.header .cart-items-container .cart-item .times{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #13131a;
+}
+
+.header .cart-items-container .cart-item .times:hover{
+    color: #ffc102;
+}
+
+.header .cart-items-container .cart-item img{
+    height: 7rem;
+    gap: 10px;
+}
+
+.header .cart-items-container .cart-item .content h6{
+    font-size: 1.3rem;
+    color: #13131a;
+    padding-bottom: 0.5rem;
+}
+
+.header .cart-items-container .cart-item .content .price{
+    font-size: 1.1rem;
+    color: #ffc102;
+}
+
+.header .cart-items-container .btn{
+    width: 100%;
+    text-align: center;
+}
+

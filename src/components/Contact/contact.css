@@ -1,0 +1,49 @@
+.contact .row{
+    flex-wrap: wrap;
+    background: #13131a;
+}
+
+.contact .row .map{
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact h2{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.contact .row form{
+    padding: 2.3rem 2rem;
+    text-align: center;
+}
+
+.contact .row form h4{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 2.1rem;
+}
+
+.contact .row form .inputBox{
+    align-items: center;
+    text-align: left;
+}
+
+.contact .row form .inputBox span{
+    color: #fff;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+}
+
+.contact .row form .inputBox input{
+    font-size: 1.1rem;
+    border: .1rem solid #ff0000;
+    text-transform: none;
+    background: none;
+    color: #ffffff76;
+}
+
+.contact .row form .inputBox input::placeholder{
+    color: #fff;
+    text-transform: capitalize;
+}
